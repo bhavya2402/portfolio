@@ -1,6 +1,6 @@
 .landing-container{
     min-height: 100vh;
-    background: url("../assets/images/bg-img2.jpg ");
+    background: url("../assets/images/bg-img5.jpg ");
     background-attachment: scroll;
     width: 100%;
     background-repeat: no-repeat;
@@ -47,6 +47,15 @@
 .nav-title{
     padding: 10px;
     font-size: 24px;
+    position: relative;
+}
+.profile-pic-mini{
+    height: 50px;
+    width: 50px;
+    border-radius: 82px;
+    position: absolute;
+    top: 3px;
+    margin-left: 10px;
 }
 .nav-container{
     color:#359ba7;
