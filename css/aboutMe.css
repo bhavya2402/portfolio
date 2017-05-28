@@ -1,0 +1,169 @@
+.landing-container{
+    min-height: 100vh;
+    background: url("../assets/images/bg-img2.jpg ");
+    background-attachment: scroll;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    margin: 0px;
+    padding: 260px 0px 260px 0px;
+}
+.bgimageText{
+    color:#ffffff;
+    width: 400px;
+    margin: 0 auto;
+}
+.aboutContainer{
+    background-color: #D2D2D2;
+    padding: 0;
+    height: 100%;
+    overflow: scroll;
+}
+.headerfixed{
+    position: fixed;
+    top:0;
+    z-index: 10;
+    width:100%;
+    background-color: #ffffff;
+}
+.nav-container{
+    height: 54px;
+}
+.nav-title{
+    padding: 10px;
+    font-size: 24px;
+}
+.nav-container{
+    color:#359ba7;
+    font-family: sans-serif;
+    font-weight: normal;
+    box-shadow: 0px -9px 80px -6px rgba(0,0,0,0.8);
+}
+.nav-contents{
+    float: right;
+    font-size: 18px;
+    height: 100%;
+}
+/*.nav-contents .active{
+    color:#ffffff !important;
+    background-color: #359ba7;
+    height: 100%;
+}*/
+.white-bg{
+    background-color: #f3f3f3;
+    padding-top: 54px;
+    color:#606060;
+}
+.green-bg{
+    background-image: linear-gradient(to right, #35a5b0, #276db4 99%, #276db4) !important;
+    padding-top: 54px;
+    color:#ffffff;
+}
+.inner-portfolio{
+    width: 900px;
+    margin: 0 auto;
+}
+.each-section{
+    padding-bottom: 50px;
+}
+#about-container{
+    font-size: 16px;
+}
+#about-container h2,#education-container h2{
+    margin-bottom: 50px;
+    color: #359ba7 !important;
+}
+
+#experience-container{
+    padding-bottom: 80px;
+}
+#experience-container .exp-year{
+    font-family: roboto sans-serif;
+    margin-bottom: 50px;
+}
+.experience-item{
+    text-align: center;
+}
+.experience-line{
+    height: 6px;
+    background: white;
+    border-radius: 10px;
+}
+.exp-logo-section{
+    position: absolute;
+    top: 69px;
+    width: 100%;
+}
+.exp-icon{
+    width: 100px;
+    height: 100px;
+}
+
+#myCarouselAcademic{
+    padding: 40px;
+    border: 1px solid #ddd;`
+}
+.carousel-control{
+    background-color: #35a5b0;
+}
+.edu-item{
+    width:420px;
+    margin: 0 auto;
+    text-align: center;
+}
+.edu-logo{
+    height: 200px;
+    width: 200px;
+}
+
+#skill-container h2{
+    margin-bottom: 50px;
+}
+.progress {
+    height: 35px;
+}
+.progress .skill{
+    font: normal 12px "Open Sans Web";
+    line-height: 35px;
+    padding: 0;
+    margin: 0 0 0 20px;
+    text-transform: uppercase;
+    color: #606060;
+}
+.progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0;
+}
+.progress-bar {
+    text-align: left;
+    transition-duration: 3s;
+    background-color: #757575;
+    color:#ffffff;
+}
+
+.contact-left, .contact-right{
+    display: inline-block;
+    padding: 12px;
+}
+.contact-right{
+    border-left: 2px solid #aaa;
+}
+.contact-left h2{
+    color: #359ba7 !important;
+    margin-bottom: 40px;
+}
+.contact-content{
+    margin-top: 20px;
+}
+.contact-right{
+    padding: 40px;
+}
+.submit-contact{
+    background-color: #359ba7;
+    color: #ffffff;
+    font-size: 20px;
+    width: 200px;
+}
