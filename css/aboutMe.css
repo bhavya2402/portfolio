@@ -28,6 +28,19 @@
     width:100%;
     background-color: #ffffff;
 }
+#scroll-top{
+    width: 50px;
+    height: 50px;
+    background-color: #35a5b0;
+    position: fixed;
+    right: 20px;
+    bottom: 12px;
+    font-size: 40px;
+    color: #ffffff;
+    z-index: 300;
+    text-align: center;
+    transition: all 0.1s linear;
+}
 .nav-container{
     height: 54px;
 }
@@ -46,11 +59,6 @@
     font-size: 18px;
     height: 100%;
 }
-/*.nav-contents .active{
-    color:#ffffff !important;
-    background-color: #359ba7;
-    height: 100%;
-}*/
 .white-bg{
     background-color: #f3f3f3;
     padding-top: 54px;
@@ -81,7 +89,7 @@
 }
 #experience-container .exp-year{
     font-family: roboto sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .experience-item{
     text-align: center;
@@ -157,6 +165,9 @@
 }
 .contact-content{
     margin-top: 20px;
+}
+.social-networks{
+    margin-top: 40px !important;
 }
 .contact-right{
     padding: 40px;

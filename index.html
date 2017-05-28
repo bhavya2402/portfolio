@@ -12,12 +12,7 @@
 	<title>Bhavya Sinha</title>
 	<link rel="stylesheet"  href="vendor/bootstrap/bootstrap.min.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet"  href="css/style.css">
     <link rel="stylesheet"  href="css/aboutMe.css">
-    <link rel="stylesheet"  href="css/portfolio.css">
-    <link rel="stylesheet"  href="css/blog.css">
-    <link rel="stylesheet"  href="css/gallery.css">
-	<link rel="stylesheet"  href="css/contact.css">
 
 	<script src="vendor/jquery-1.11.3.min.js"></script>
 	<script src="vendor/bootstrap/bootstrap.min.js"></script>
@@ -40,23 +35,7 @@
                     <li class="contactTab"><b>Contact</b></li> 
                 </ul>
             </div>
-        </div>        
-
-       <!--  <div class="hidden-xs hidden-sm col-md-3 col-lg-3 sideNavBar">       
-            <div class="sideImgContainer"><img src="assets/images/profile_pic.jpg" alt="bhavya"></div>
-            <nav class="navbar navbar-default">
-                <div class="menuList">
-                    <ul class="nav navbar-nav">
-                        <li class="active aboutTab"><b>Home</b></li>
-                        <li class="portfolioTab"><b>Portfolio</b></li>
-                        <li class="blogTab"><b>Blog</b></li> 
-                        <li class="galleryTab"><b>Gallery</b></li> 
-                        <li class="contactTab"><b>Contact</b></li> 
-                    </ul>
-                </div>
-            </nav>
-        </div>  -->
-
+        </div> 
         <div class="landing-container">
             <div class='bgimageText'>
                 <h2>Hey, I'm Bhavya</h2>
@@ -64,6 +43,9 @@
                 <h3>@ Happay</h3>
             </div>
         </div>
+        <a href="#">
+            <i id="scroll-top" class="fa fa-angle-up hide"></i>
+        </a>       
         <nav class="navbar scrollHeader">
             <div class="container-fluid nav-container">
                 <div class="navbar-header nav-title">
@@ -126,7 +108,7 @@
                                 <img class="exp-icon" style="height: 94px !important" src="assets/images/ibm_logo.jpg" alt="ibm logo">
                             </div>
                             <div class="experience-item col-lg-4 col-md-4 col-sm-4">
-                                <img class="exp-icon" src="assets/images/happay_logo.png" alt="doordarshan logo">
+                                <img class="exp-icon" src="assets/images/doordarshan_logo.jpg" alt="doordarshan logo">
                             </div>
                         </div>
                     </hr>
@@ -286,25 +268,27 @@
                     </div>
                 </div>
                 <div class="contact-right col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="contact-content">
-                        <div>Your Name</div>
-                        <input type="text"  class="form-control required-item" placeholder="Enter Name" required>                
-                    </div>
-                    <div class="contact-content">
-                        <div>Your Email</div>
-                        <input type="text"  class="form-control required-item" placeholder="Enter Mail" required>               
-                    </div>
-                    <div class="contact-content">
-                        <div>Phone Number</div>
-                        <input type="text"  class="form-control required-item" placeholder="Phone No." required>               
-                    </div>
-                    <div class="contact-content">
-                        <div>Comments</div>
-                        <textarea class="form-control" rows="5" id="comment"></textarea>
-                    </div>
-                    <div class="contact-content" style="text-align: center;">
-                        <button type="button" class="btn btn-default submit-contact">Send</button>
-                    </div>
+                    <form class="contactForm">
+                        <div class="contact-content">
+                            <div>Your Name</div>
+                            <input type="text" class="form-control required-item" placeholder="Enter Name" name="firstname" required>              
+                        </div>
+                        <div class="contact-content">
+                            <div>Your Email</div>
+                            <input type="email" class="form-control required-item" placeholder="Enter Mail" name="email" required>               
+                        </div>
+                        <div class="contact-content">
+                            <div>Phone Number</div>
+                            <input type="number" class="form-control required-item" placeholder="Phone No." name="number" required>               
+                        </div>
+                        <div class="contact-content">
+                            <div>Comments</div>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                        <div class="contact-content" style="text-align: center;">
+                            <button type="submit" class="btn btn-default submit-contact">Send</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

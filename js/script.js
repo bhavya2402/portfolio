@@ -4,13 +4,14 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if( $(window).scrollTop() > pos ) {
              $('.scrollHeader').addClass('headerfixed').removeClass('hide');
+             $('#scroll-top').removeClass('hide');
         }else{
             $('.scrollHeader').removeClass('headerfixed').addClass('hide');
+             $('#scroll-top').addClass('hide');
         }
     });
 
     var skillPos = $('#skill-container').offset().top;
-    console.log('pos',skillPos,pos)
     $(window).scroll(function(){
         if($(window).scrollTop() > (+skillPos-120)){
             $('.progress .skill').css("color", "#ffffff");
@@ -21,7 +22,8 @@ $(document).ready(function(){
             )
         }
     });
-    /*$("form").on("submit", function () {
+
+     $("form").on("submit", function () {
         var isInvalid = false;
         $("input", this).each(function () {
             if (!$(this).val()) {
@@ -33,7 +35,7 @@ $(document).ready(function(){
     }
     else{
         window.alert("Thankyou For contacting me!! Will get back to you earliest..");
-    }*/
-// });
+    }
+});
 
 });
