@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# Version 23-05-2017-1 v2.0
+
+CACHE:
+
+assets/images/bg-img1.jpg
+assets/images/bg-img2.jpg
+assets/images/bg-img3.jpg
+assets/images/profile_pic.jpg
+assets/images/nitp_logo.jpg
+assets/images/dav_logo.jpg
+assets/images/carmel_logo.jpg
+assets/images/happay_logo.jpg
+assets/images/ibm_logo.jpg
+assets/images/doordarshan_logo.jpg
+
+NETWORK:
+*
