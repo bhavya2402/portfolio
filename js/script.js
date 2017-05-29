@@ -5,9 +5,11 @@ $(document).ready(function(){
         if( $(window).scrollTop() > pos ) {
              $('.scrollHeader').addClass('headerfixed').removeClass('hide');
              $('#scroll-top').removeClass('hide');
+             $('#scroll-down').addClass('hide');
         }else{
             $('.scrollHeader').removeClass('headerfixed').addClass('hide');
              $('#scroll-top').addClass('hide');
+             $('#scroll-down').removeClass('hide');
         }
     });
 
@@ -23,7 +25,14 @@ $(document).ready(function(){
         }
     });
 
-     $("form").on("submit", function () {
+    $('#scroll-down').on('click', function(){
+        $("html, body").animate({ scrollTop: 800 }, "slow");
+    });
+    $('#scroll-top').on('click', function(){
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+    });
+
+    $("form").on("submit", function () {
         var isInvalid = false;
         $("input", this).each(function () {
             if (!$(this).val()) {
