@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    let BASE_IMG = 'assets/images/bg-img';
+        $('.landing-container').css({
+                            "background" : 'url("' + BASE_IMG + (1 + parseInt(Math.random() * 3)) + '.jpg") 0% 0% / 100% 100%',
+                            "background-position" : 'center',
+                            "background-size" : 'cover',
+                        });
     var pos = $('.scrollHeader').offset().top;
 
     $(window).scroll(function(){
