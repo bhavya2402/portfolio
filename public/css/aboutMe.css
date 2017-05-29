@@ -180,6 +180,11 @@
 .social-networks{
     margin-top: 40px !important;
 }
+.social-icon{
+    font-size:36px;
+    padding:12px;
+    cursor: pointer;
+}
 .contact-right{
     padding: 40px;
 }
