@@ -30,15 +30,18 @@
         <div class="visible-xs visible-sm col-xs-3 col-sm-3 hide smallNavContainer">            
             <div class="smallMenuList">
                 <ul class="nav navbar-nav">
-                    <li class="active aboutTab"><b>Home</b></li>
-                    <li class="portfolioTab"><b>Portfolio</b></li>
-                    <li class="blogTab"><b>Blog</b></li> 
-                    <li class="galleryTab"><b>Gallery</b></li> 
-                    <li class="contactTab"><b>Contact</b></li> 
+                    <li class="active aboutTab mobile-menu"><a href="#about-container"><b>About</b></a></li>
+                    <li class="portfolioTab mobile-menu"><a href="#mobile-experience-container"><b>Experience</b></a></li>
+                    <li class="blogTab mobile-menu"><a href="#education-container"><b>Education</b></a></li> 
+                    <li class="galleryTab mobile-menu"><a href="#skill-container"><b>Skills</b></a></li> 
+                    <li class="contactTab mobile-menu"><a href="#contact-container"><b>Contact</b></a></li> 
                 </ul>
             </div>
         </div> 
         <div class="landing-container">
+            <div class="visible-xs visible-sm" style="text-align: center;">
+                <img class="profile-pic-mini" src="assets/images/profile_pic.jpg" alt="">
+            </div>
             <div class='bgimageText'>
                 <h2>Hey, I'm Bhavya</h2>
                 <h3>Software Developer</h3>
@@ -47,13 +50,13 @@
         </div>
 
         <!-- -------- Scroll to top -------- -->
-        <i id="scroll-top" class="fa fa-angle-up hide"></i>
-        <i id="scroll-down" class="fa fa-angle-down"></i>
+        <i id="scroll-top" class="fa fa-angle-up hide hidden-xs hidden-sm"></i>
+        <i id="scroll-down" class="fa fa-angle-down hidden-xs hidden-sm"></i>
 
-        <nav class="navbar scrollHeader">
+        <nav class="hidden-xs hidden-sm navbar scrollHeader">
             <div class="container-fluid nav-container">
                 <div class="navbar-header nav-title">
-                  <a href="#">Bhavya Sinha</a><span><img class="profile-pic-mini" src="assets/images/profile_pic.jpg" alt=""></span>
+                  <a href="#">Bhavya Sinha</a><span><img class="profile-pic-mini" src="assets/images/profile_pic.jpg" alt="mini profile pic"></span>
                 </div>
                 <ul class="nav navbar-nav nav-contents">
                   <li class="active"><a href="#about-container">About</a></li>
@@ -64,7 +67,7 @@
                 </ul>
             </div>
         </nav>
-        <div id="about-container" class="each-section col-xs-12 col-sm-12 white-bg">
+        <div id="about-container" class="each-section white-bg">
             <div class="inner-portfolio">
                 <h2>About Me</h2>
                 <p>Hi there, I’m Bhavya. I am a web developer based in Bangalore who loves to create clean, professional, responsive &amp; functional websites.</p>
@@ -78,25 +81,25 @@
                 <p>Thanks for stopping by!</p>
             </div>
         </div>
-        <div id="experience-container" class="each-section col-xs-12 col-sm-12 green-bg">
+        <div id="experience-container" class="each-section green-bg hidden-xs hidden-sm">
             <div class="inner-portfolio">
                 <h2>Experience</h2>
                 <h4 class="exp-year">2 YEARS OF EXPERIENCE</h4>
                 <div style="position: relative;">
                     <div class="row" style="margin-bottom: 50px;">
-                        <div class="experience-item col-lg-4 col-md-4 col-sm-4">
+                        <div class="experience-item col-lg-4 col-md-4">
                             <div>
                                 <h4>Happay (VA Tech Ventures)</h4>
                                 <h5>Software Developer</h5>
                             </div>
                         </div>
-                        <div class="experience-item col-lg-4 col-md-4 col-sm-4">
+                        <div class="experience-item col-lg-4 col-md-4">
                             <div>
                                 <h4>IBM India Pvt Ltd.</h4>
                                 <h5>Application Developer</h5>
                             </div>
                         </div>
-                        <div class="experience-item col-lg-4 col-md-4 col-sm-4">
+                        <div class="experience-item col-lg-4 col-md-4">
                             <div>
                                 <h4>Doordarshan Kendra</h4>
                                 <h5>Trainee</h5>
@@ -105,27 +108,27 @@
                     </div>
                     <hr class="experience-line">
                         <div class="row exp-logo-section">
-                            <div class="experience-item col-lg-4 col-md-4 col-sm-4">
+                            <div class="experience-item col-lg-4 col-md-4">
                                 <img class="exp-icon" src="assets/images/happay_logo.png" alt="happay logo">
                             </div>
-                            <div class="experience-item col-lg-4 col-md-4 col-sm-4">
+                            <div class="experience-item col-lg-4 col-md-4">
                                 <img class="exp-icon" style="height: 94px !important" src="assets/images/ibm_logo.jpg" alt="ibm logo">
                             </div>
-                            <div class="experience-item col-lg-4 col-md-4 col-sm-4">
+                            <div class="experience-item col-lg-4 col-md-4">
                                 <img class="exp-icon" src="assets/images/doordarshan_logo.jpg" alt="doordarshan logo">
                             </div>
                         </div>
                     </hr>
                     <div class="row" style="margin-top: 50px;">
-                        <div class="experience-item col-lg-4 col-md-4 col-sm-4">
+                        <div class="experience-item col-lg-4 col-md-4">
                             <h4>APRIL 2016 - PRESENT</h4>    
                             <h5>Bangalore</h5>    
                         </div>
-                        <div class="experience-item col-lg-4 col-md-4 col-sm-4">
+                        <div class="experience-item col-lg-4 col-md-4">
                             <h4>JULY 2014 - JANUARY 2016</h4>    
                             <h5>Bangalore</h5>    
                         </div>
-                        <div class="experience-item col-lg-4 col-md-4 col-sm-4">
+                        <div class="experience-item col-lg-4 col-md-4">
                             <h4>MAY 2013 - JULY 2013</h4>    
                             <h5>Worli (Mumbai)</h5>    
                         </div>
@@ -133,7 +136,87 @@
                 </div>
             </div>
         </div>
-        <div id="education-container" class="each-section col-xs-12 col-sm-12 white-bg">
+        <div id="mobile-experience-container" class="each-section green-bg visible-xs visible-sm">
+            <div class="inner-portfolio">
+                <h2>Experience</h2>
+                <h4 class="exp-year">2 YEARS OF EXPERIENCE</h4>
+                <!-- Happay -->
+                <div style="position: relative;" class="mobile-experience">
+                    <div class="row" style="margin-bottom: 50px;">
+                        <div class="experience-item col-lg-4 col-md-4">
+                            <div>
+                                <h4>Happay (VA Tech Ventures)</h4>
+                                <h5>Software Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="experience-line">
+                        <div class="row exp-logo-section">
+                            <div class="experience-item col-lg-4 col-md-4">
+                                <img class="exp-icon" src="assets/images/happay_logo.png" alt="happay logo">
+                            </div>
+                        </div>
+                    </hr>
+                    <div class="row" style="margin-top: 50px;">
+                        <div class="experience-item col-lg-4 col-md-4">
+                            <h4>APRIL 2016 - PRESENT</h4>    
+                            <h5>Bangalore</h5>    
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IBM -->
+                <div style="position: relative;" class="mobile-experience">
+                    <div class="row" style="margin-bottom: 50px;">
+                        <div class="experience-item col-lg-4 col-md-4">
+                            <div>
+                                <h4>IBM India Pvt Ltd.</h4>
+                                <h5>Application Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="experience-line">
+                        <div class="row exp-logo-section">
+                            <div class="experience-item col-lg-4 col-md-4">
+                                <img class="exp-icon" style="height: 94px !important" src="assets/images/ibm_logo.jpg" alt="ibm logo">
+                            </div>
+                        </div>
+                    </hr>
+                    <div class="row" style="margin-top: 50px;">
+                        <div class="experience-item col-lg-4 col-md-4">
+                            <h4>JULY 2014 - JANUARY 2016</h4>    
+                            <h5>Bangalore</h5>    
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doordarshan -->
+                 <div style="position: relative;" class="mobile-experience">
+                    <div class="row" style="margin-bottom: 50px;">
+                        <div class="experience-item col-lg-4 col-md-4">
+                            <div>
+                                <h4>Doordarshan Kendra</h4>
+                                <h5>Trainee</h5>
+                            </div>
+                        </div> 
+                    </div>
+                    <hr class="experience-line">
+                        <div class="row exp-logo-section">
+                            <div class="experience-item col-lg-4 col-md-4">
+                                <img class="exp-icon" src="assets/images/doordarshan_logo.jpg" alt="doordarshan logo">
+                            </div> 
+                        </div>
+                    </hr>
+                    <div class="row" style="margin-top: 50px;">
+                        <div class="experience-item col-lg-4 col-md-4">
+                            <h4>MAY 2013 - JULY 2013</h4>    
+                            <h5>Worli (Mumbai)</h5>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="education-container" class="each-section white-bg">
             <div class="inner-portfolio">
                 <h2>EDUCATION</h2>
                 <div id="myCarouselAcademic" class="carousel slide" data-ride="carousel">
@@ -189,7 +272,7 @@
         </div>
 
         <!------------------ Skill Section ---------------->
-        <div id="skill-container" class="each-section col-xs-12 col-sm-12 green-bg">
+        <div id="skill-container" class="each-section green-bg">
             <div class="inner-portfolio">
                 <h2>SKILLS</h2>
                 <div class="progress skill-bar ">
@@ -241,9 +324,9 @@
         </div>
 
         <!------------------ Contact Section ---------------->
-        <div id="contact-container" class="each-section col-xs-12 col-sm-12 white-bg">
+        <div id="contact-container" class="each-section white-bg">
             <div class="row inner-portfolio">
-                <div class="contact-left col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="contact-left col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <h2>CONTACT ME</h2>
                     <div class="contact-content"></div>
                         <div style="display: inline-block;">
@@ -273,7 +356,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="contact-right col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="contact-right col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <form class="contactForm">
                         <div class="contact-content">
                             <div>Your Name</div>

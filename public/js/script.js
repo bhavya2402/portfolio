@@ -42,15 +42,22 @@ $(document).ready(function(){
         var isInvalid = false;
         $("input", this).each(function () {
             if (!$(this).val()) {
-            isInvalid = true;
+                isInvalid = true;
+            }
+        });
+        if (isInvalid) {
+            return false;
+        }
+        else{
+            window.alert("Thankyou For contacting me!! Will get back to you earliest..");
         }
     });
-    if (isInvalid) {
-        return false;
-    }
-    else{
-        window.alert("Thankyou For contacting me!! Will get back to you earliest..");
-    }
-});
+
+    $('#menuIcon').on('click', function(){
+        $('.smallNavContainer').toggleClass('hide');
+    });
+    $('.mobile-menu').on('click', function(){
+        $('.smallNavContainer').addClass('hide');
+    });
 
 });
