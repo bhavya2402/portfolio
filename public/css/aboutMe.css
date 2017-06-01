@@ -114,6 +114,7 @@
     position: absolute;
     top: 69px;
     width: 100%;
+    margin-left: 1px !important;
 }
 .exp-icon{
     width: 100px;
@@ -209,6 +210,7 @@
     .bgimageText{
         color: #ffffff;
         text-align: center;
+        width: 100%;
     }
     .profile-pic-mini{
         height: 250px;
@@ -223,9 +225,6 @@
     }
     .contact-right{
         border-left: none;
-    }
-    .contact-left{
-        padding-left: 32px;
     }
     .edu-item{
         max-width: 250px;
@@ -262,5 +261,8 @@
         font-family: sans-serif;
         cursor: pointer;
         width: 100%
+    }
+    .exp-logo-section{
+        top:49px;
     }
 }
